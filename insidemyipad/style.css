@@ -1,0 +1,59 @@
+* {
+	box-sizing: border-box;
+	color: white;
+}
+
+body {
+	margin: 0;
+	background-color: #1e2183;
+}
+
+h2,
+h3 {
+	text-decoration: underline;
+	margin-top: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #bb5210;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2vw;
+	padding: 2vw;
+	padding-top: 0;
+}
+
+.box {
+	width: 100%;
+	padding: 1.5rem 25px;
+	background-color: #00075c;
+}
+
+.component-container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+	margin: 2vw;
+}
+
+.component {
+	flex: 1 1 200px;
+	display: flex;
+	flex-direction: column;
+	padding: 1rem;
+	background-color: #bb5210;
+}
+
+.component p {
+	margin: 0;
+}
+
+.footer {
+	text-align: center;
+	padding: 1rem;
+	background-color: #00075c;
+}	
